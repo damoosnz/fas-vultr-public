@@ -1,7 +1,17 @@
-table {
-  width: 80%;
+/* table {
+  width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto; /* center the table horizontally */
+  border-collapse: collapse;
   font-family: Arial, sans-serif;
   font-size: 14px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
